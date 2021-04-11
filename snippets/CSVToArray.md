@@ -3,7 +3,7 @@ title: CSVToArray
 tags: string,array,intermediate
 ---
 
-Converts a comma-separated values (CSV) string to a 2D array.
+Converts a comma-separated value (CSV) string to a 2D array.
 
 - Use `Array.prototype.slice()` and `Array.prototype.indexOf('\n')` to remove the first row (title row) if `omitFirstRow` is `true`.
 - Use `String.prototype.split('\n')` to create a string for each row, then `String.prototype.split(delimiter)` to separate the values in each row.
